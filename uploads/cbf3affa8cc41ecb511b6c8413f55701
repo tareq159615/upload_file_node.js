@@ -1,0 +1,88 @@
+student ={
+    "name" : "Tareq",
+    "subject": "CSE",
+    "roll" : 345
+}
+
+
+# --------------------
+
+
+# student.clear()
+# print("clear() : ", student)
+
+
+# -------------------
+d= {
+    'course' : 'python',
+    'fees' : 8000,
+    'duration' : '2 Months'
+}
+del d['fees']
+print(d)
+# ----------------
+# x= ('key1','key2','key3')
+# y = 0
+# a = dict.fromkeys(x,y)
+# print("dict.fromkeys(x,y) : ", a)
+
+
+# -------------------
+x = student.copy()
+# print("copy() :- ",x)
+# -------------------
+# print("get() :- ", student.get("roll"))
+# d= {
+#     'course' : 'python',
+#     'fees' : 8000,
+#     'duration' : '2 Months'
+# }
+# c = d.get('course')
+# print(c)
+# -------------------
+# print("keys() :- ", student.keys())
+# d= {
+#     'course' : 'python',
+#     'fees' : 8000,
+#     'duration' : '2 Months'
+# }
+# for a in d.keys():
+#     print(a)
+# -------------------
+# print("pop() :- ", student.pop("roll"))
+# -------------------
+# print("popitem() :- ", student.popitem())
+# -------------------
+# print("student.setdefault :- ", student.setdefault("name","sohan"))
+# -------------------
+# print("student.update() :- ", student.update({"dist": "chandpour"}))
+# -------------------
+# print("student.values() :- ", student.values())
+# d= {
+#     'course' : 'python',
+#     'fees' : 8000,
+#     'duration' : '2 Months'
+# }
+# for a in d.values():
+#     print(a)
+# ----------------
+# for a,b in student.items():
+#     print(a)
+#     print(b)
+# d= {
+#     'course' : 'python',
+#     'fees' : 8000,
+#     'duration' : '2 Months'
+# }
+# for a in d.items():
+#     print(a)
+# ----------------
+# d= {
+#     'course' : 'python',
+#     'fees' : 8000,
+#     'duration' : '2 Months'
+# }
+# c = d.get('course')
+# print(c)
+# ----------------
+
